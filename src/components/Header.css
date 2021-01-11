@@ -1,0 +1,142 @@
+.trio__header{
+    background-color: var(--unnamed-color-008080);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header__logo{
+
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    
+}
+
+.header__logo__des{
+    padding: 10px 10px;
+}
+
+.header__logo > img {
+    object-fit: contain;
+    height: 50px;
+}
+
+
+.header__activity{
+    text-align: right;
+    margin-right: 60px;
+}
+
+.header__activity  a{
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.header__activity .active{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+
+.header__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: yellow; */
+}
+
+.container{
+    padding: 50px;
+    margin: 10px;
+}
+
+.container > h1 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container >h2 {
+    text-align: center;
+    font-weight: 500;
+}
+.container > h3{
+
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.container > p {
+    background: #FFFFFF;
+    border-radius:35px;
+    color: var(--unnamed-color-008080);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    padding: 8px 15px;
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    margin: 24px auto;
+    width: fit-content;
+    
+}
+
+.header__select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.city{
+
+    width: 150px;
+    
+    background-color: white;
+    border-radius:5px;
+    font-size: 14px;
+    padding: 5px 40px 5px 8px;
+    border:none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.city__area{
+    width: 150px;
+    background-color: white;
+    border-radius:5px;
+    font-size: 14px;
+    padding: 5px 40px 5px 8px;
+    border:none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__select > input{
+
+    background: none;
+    border-radius:5px;
+    font-size: 14px;
+    padding: 5px 12px;
+    border:1px solid white;
+    color: white;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container > hr {
+    max-width: 300px;
+    margin: auto;
+}

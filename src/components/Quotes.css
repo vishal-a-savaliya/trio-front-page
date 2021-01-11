@@ -1,0 +1,32 @@
+.trio__qoute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    background-color: #00808014;
+}
+
+.trio__qoute > i{
+    padding: 40px;
+    font-size: 30px;
+    color: var(--unnamed-color-008080);
+}
+
+.trio__qoute > h2 {
+    margin-top: 40px 30px 20px;
+    text-align: center;
+    color: var(--unnamed-color-008080);
+    font-weight: 600;
+}
+
+.trio__qoute > p{
+    padding: 40px;
+    font-size: small;
+    color: var(--unnamed-color-008080);
+}
+
+
+
+
+

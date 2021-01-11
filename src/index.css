@@ -6,7 +6,28 @@
 
 
 body {
-  
+
+    /* Colors: */
+    --unnamed-color-008080: #008080;
+    --unnamed-color-838383: #838383;
+    --unnamed-color-bfbfbf: #BFBFBF;
+    
+    /* Font/text values */
+    --unnamed-font-family-poppins: Poppins;
+    --unnamed-font-family-gilroy-☞: Gilroy ☞;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-600: 600px;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-26: 26px;
+    --unnamed-font-size-36: 36px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-23: 23px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-31: 31px;
+    --unnamed-line-spacing-40: 40px;
+    --unnamed-line-spacing-64: 64px;
+    
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

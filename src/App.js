@@ -3,6 +3,11 @@ import Whatistrio from "./components/Whatistrio";
 import Tuitionsondemand from "./components/Tuitionsondemand";
 import Whatweoffer from "./components/Whatweoffer";
 import Quotes from "./components/Quotes";
+import Helpfull from "./components/Helpfull";
+import Whytrio from "./components/Whytrio";
+import Methodology from "./components/Methodology";
+import Vision from "./components/Vision";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,11 +20,11 @@ function App() {
        <Tuitionsondemand></Tuitionsondemand>
        <Whatweoffer></Whatweoffer>
        <Quotes></Quotes>
-       {/* <Helpfull></Helpfull> */}
-       {/* <Whytrio></Whytrio> */}
-       {/* <Methodology></Methodology> */}
-       {/* <Vision></Vision> */}
-       {/* <Footer></Footer> */}
+       <Helpfull></Helpfull>
+       <Whytrio></Whytrio>
+       <Methodology></Methodology>
+       <Vision></Vision>
+       <Footer></Footer>
       </header>
     </div>
   );

@@ -1,0 +1,36 @@
+.trio__vison{
+    margin-bottom: 70px;
+}
+
+.trio__vison >h2 {
+    margin-top: 60px;
+    text-align: center;
+    color: var(--unnamed-color-008080);
+    font-weight: 600;
+}
+.trio__vison >hr {   
+    max-width: 200px;
+    margin: 5px auto;
+    font-weight: 600;
+    border:1px solid var(--unnamed-color-008080)!important;
+}
+
+.vison__container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px auto;
+    
+}
+
+.vison__container > h3 {
+    border: 2px solid  var(--unnamed-color-008080);
+    padding: 10px;
+    color: var(--unnamed-color-838383);
+    font-size: large;
+    font-weight: 500;
+    border-radius: 8px;
+    width:62%;
+    text-align: center;
+    
+}

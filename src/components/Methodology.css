@@ -1,0 +1,46 @@
+.trio__methodology >h2 {
+    margin-top: 60px;
+    text-align: center;
+    color: var(--unnamed-color-008080);
+    font-weight: 600;
+}
+.trio__methodology >hr {   
+    max-width: 200px;
+    margin: 5px auto;
+    font-weight: 600;
+    border:1px solid var(--unnamed-color-008080)!important;
+}
+
+.methodology {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 20px auto;
+    width:62%;
+}
+
+.methodology__dsc {
+
+    border: 2px solid var(--unnamed-color-008080);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 18px 10px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.methodology__dsc >h5{
+   
+    color: var(--unnamed-color-008080);
+    font-size: medium;
+    font-weight: 600;
+}
+
+.methodology__dsc >p{
+    text-align: left;
+    font-size: x-small;
+    color: var(--unnamed-color-838383);
+    padding: 10px 20px;
+    
+}

@@ -11,36 +11,75 @@
     border:1px solid var(--unnamed-color-008080)!important;
 }
 
-
-.whatweoffer{
-    margin: 40px auto;
-    padding: 30px;
-    width:62%;
-    box-shadow: 1px 5px 45px #DDE6EDCC;
-    border-radius: 8px;
+@media (max-width:4000px) and (min-width:1100px) {
+    .whatweoffer{
+        margin: 40px auto;
+        padding: 30px;
+        width:62%;
+        box-shadow: 1px 5px 45px #DDE6EDCC;
+        border-radius: 8px;
+    }
+    
+    .whatweoffer__icons{
+    
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .icons > i{
+        font-size: 40px;
+        color: var(--unnamed-color-008080);
+    
+    } 
+    
+    .icons > span{
+        font-size:small;
+        color: var(--unnamed-color-008080);
+        padding: 20px 10px;
+    }
 }
 
-.whatweoffer__icons{
 
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-}
-.icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
-}
-.icons > i{
-    font-size: 40px;
-    color: var(--unnamed-color-008080);
+@media (max-width: 1099px) {
+    .whatweoffer{
+        margin: 40px auto;
+        padding: 30px;
+        width:90%;
+        box-shadow: 1px 5px 45px #DDE6EDCC;
+        border-radius: 8px;
+    }
+    
+    .whatweoffer__icons{
+    
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .icons > i{
+        font-size: 40px;
+        color: var(--unnamed-color-008080);
+    
+    } 
+    
+    .icons > span{
+        font-size:small;
+        color: var(--unnamed-color-008080);
+        padding: 20px 10px;
+    }
+}    
 
-} 
 
-.icons > span{
-    font-size:small;
-    color: var(--unnamed-color-008080);
-    padding: 20px 10px;
-}

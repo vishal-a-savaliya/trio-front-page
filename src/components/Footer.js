@@ -8,7 +8,11 @@ function Footer() {
 
             <div className="footer1">
 
-                <div className="trio__footer__logo">
+                <div className="trio__footer__logo"  onClick={() => { 
+                        window.location.hash = "/";
+                        document.body.scrollTop = 0;
+                        document.documentElement.scrollTop = 0;    
+                    }}>
                     <img src={Logo} alt="trio" />
                     <div className="footer__logo__des">
 

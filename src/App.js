@@ -16,6 +16,7 @@ function App() {
       <header className="App-header">
       {/* <h1>here we go!</h1> */}
        <Header></Header>
+       {/* <Home /> */}
        <Whatistrio></Whatistrio>
        <Tuitionsondemand></Tuitionsondemand>
        <Whatweoffer></Whatweoffer>

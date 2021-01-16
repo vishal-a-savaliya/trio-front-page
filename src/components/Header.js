@@ -1,30 +1,12 @@
 import React from 'react'
 import "./Header.css";
-import Logo from '../img/Newlogo2.gif';
+import Navbar from "./Navbar";
 
 
 function Header() {
     return (
         <div className="trio__header">
-            <div className="header">
-                <div className="header__logo">
-                    <img src={Logo} alt="trio" />
-                    <div className="header__logo__des">
-
-                        <h5>Trio</h5>
-                        <p>Break the chain</p>
-
-                    </div>
-
-                </div>
-                <div className="header__activity">
-                    <a href="/">About us</a>
-                    <a href="/">Activity</a>
-                    <a href="/">Free Education</a>
-                    <a href="/">Blogs</a>
-                    <a href="/" className="active">Apply for tutor</a>
-                </div>
-            </div>
+            <Navbar />
             <div className="header__container">
                 <div className="container">
 
